@@ -13,7 +13,11 @@ header {
     position: fixed;
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 15%);
 }
-
+@media screen and (max-width: 768px) {
+    header {
+        width: 90%;
+    }
+}
 .login {
     text-decoration: none;
     color: black;
@@ -229,9 +233,14 @@ footer {
 section {
     margin-left: 20%;
 }
-
+@media screen and (max-width: 768px) {
+    section {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
 h1 {
-    padding-top: 100px;
+    padding-top: 140px;
     text-align: center;
 }
 
@@ -241,4 +250,7 @@ h1 {
 
 .dropdown-item.active {
     border-bottom: 1px solid rgb(48, 89, 122);
+}
+.post img{
+    width: 100%;
 }
