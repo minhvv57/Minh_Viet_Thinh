@@ -316,14 +316,29 @@
         margin-top: 460px;
         margin-left: 10%;
     }
-    
+    @media screen and (max-width: 768px) {
+        .div4 {
+            width: 90%;
+            height: 500px;
+            margin-top: 560px;
+            margin-left: 5%;
+        }
+    }
     .card {
         float: left;
         margin-left: 5%;
         width: 18rem;
         margin-top: 30px;
     }
-    
+    @media screen and (max-width: 768px) {
+        .card {
+            float: left;
+        margin-left: 3%;
+        width: 30%;
+        margin-top: 30px;
+        height: 300px;
+    }
+}
     .card-title {
         text-align: center;
     }

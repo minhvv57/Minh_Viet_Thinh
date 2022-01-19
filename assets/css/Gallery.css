@@ -37,7 +37,11 @@ header {
         padding-left: 9%;
     }
 }
-
+@media screen and (max-width: 768px) {
+    section {
+        width: 80%;
+    }
+}
 .search-box {
     position: relative;
     height: 30px;
@@ -255,7 +259,7 @@ footer {
 @media screen and (max-width: 768px) {
     footer {
         height: 740px;
-        width: 100%;
+        width: 78%;
     }
 }
 
